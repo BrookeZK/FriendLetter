@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Create a Custom Postcard!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Fill in your name and your friend's name to create your custom postcard!</h1>
+    <form action="/postcard" method="post">
+     <label for="sender">Sender's Name</label>
+     <input id="sender" name="sender" type="text">
+     <label for="recipient">Recipient's Name</label>
+     <input id="recipient" name="recipient" type="text">
+     <label for="location1">Travel Location 1</label>
+     <input id="location1" name="location1" type="text">
+     <label for="location2">Travel Location 2</label>
+     <input id="location2" name="location2" type="text">
+     <label for="souvenirs">Travel souvenirs</label>
+     <input id="souvenirs" name="souvenirs" type="text">
+     <button type="submit">Go!</button>
+    </form>
+  </body>
+</html>
